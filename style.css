@@ -1,0 +1,42 @@
+html, body {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+.inputContainer {
+    background-color: antiquewhite;
+    flex: 0 1 auto;
+    height: 50%;
+    /*display: flex;
+    flex-flow: column;
+    height: 50%;*/
+}
+
+.outputContainer {
+    background-color: powderblue;
+    flex: 0 1 auto;
+    height: 50%;
+    padding-top: 40px;
+    /*display: flex;
+    flex-flow: column;
+    height: 50%;*/
+}
